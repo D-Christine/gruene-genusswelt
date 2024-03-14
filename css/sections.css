@@ -93,7 +93,7 @@ nav li {
     gap: 1.2rem;
 }
 
-@media screen and (width>=768px) {
+@media screen and (max-width: 768px) {
     .neue-rezepte h1 {
         text-align: center;
     }
