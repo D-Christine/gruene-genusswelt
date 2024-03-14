@@ -143,15 +143,11 @@ a {
 .btn-primary {
     background-color: var(--primary);
     color: var(--light);
-    padding: 8px;
-    text-align: center;
     gap: 8px;
-    border: none;
 }
 
 .btn-secondary {
     background-color: var(--secondary);
-    padding: 8px;
 }
 
 .buttons {
@@ -161,4 +157,6 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 8px;
+    border: none;
 }
