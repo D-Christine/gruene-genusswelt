@@ -1,0 +1,164 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --primary: #116156;
+    --secondary: #EDAA05;
+    --base: #FFF3E3;
+    --light: #E0E0E0;
+    --dark: #424242;
+    --functional-text: "Hind Madurai", Arial, Helvetica, sans-serif;
+    --body-text: "Hind Madurai", Arial, Helvetica, sans-serif;
+    --display-text: "Libre Baskerville", "Times New Roman", serif;
+    --subheadings: "Lora", serif;
+    /* regular */
+    --fw-400: 400;
+    /* bold */
+    --fw-700: 700;
+    --fs-italic: italic;
+}
+
+/* Schriften */
+html {
+    font-family: var(--body-text);
+    font-size: 20px;
+    line-height: 150%;
+    color: var(--dark);
+    margin: 0;
+}
+
+h1 {
+    font-family: var(--display-text);
+    font-size: 3.375rem;
+    line-height: 120%;
+}
+
+h2 {
+    font-family: var(--display-text);
+    font-size: 2.25rem;
+    line-height: 120%;
+}
+
+h3 {
+    font-family: var(--subheadings);
+    font-size: 1.5rem;
+    font-style: var(--fs-italic);
+    font-weight: var(--fw-400);
+    line-height: 120%;
+}
+
+h4 {
+    font-family: var(--display-text);
+    font-size: 1rem;
+    font-weight: var(--fw-700);
+}
+
+/* Abstände */
+/* Vertikal */
+.py-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.py-2 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.py-3-1 {
+    padding-top: 3.2rem;
+    padding-bottom: 3.2rem;
+}
+
+.py-4 {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+/* Horizontal */
+.px-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.px-2 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.px-3-1 {
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+}
+
+.px-4 {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+/* Margins */
+.h3-margin-top {
+    margin-top: 0.4rem;
+}
+
+.parag-margin-top {
+    margin-top: 1rem;
+}
+
+/* Schriftformatierung */
+.text-align-centre {
+    text-align: center;
+}
+
+/* Farben */
+.bg-dark {
+    background-color: var(--dark);
+    color: white;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+/* Links */
+a {
+    color: var(--dark);
+    text-decoration: none;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: var(--primary);
+    color: var(--light);
+    padding: 8px;
+    text-align: center;
+    gap: 8px;
+    border: none;
+}
+
+.btn-secondary {
+    background-color: var(--secondary);
+    padding: 8px;
+}
+
+.buttons {
+    width: 194px;
+    height: 48px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

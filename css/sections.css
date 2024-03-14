@@ -1,0 +1,175 @@
+:root {
+    --primary: #116156;
+    --secondary: #EDAA05;
+    --base: #FFF3E3;
+    --light: #E0E0E0;
+    --dark: #424242;
+    --functional-text: "Hind Madurai", Arial, Helvetica, sans-serif;
+    --body-text: "Hind Madurai", Arial, Helvetica, sans-serif;
+    --display-text: "Libre Baskerville", "Times New Roman", serif;
+    --subheadings: "Lora", "Times New Roman", serif;
+    /* regular */
+    --fw-400: 400;
+    /* bold */
+    --fw-700: 700;
+    --fs-italic: italic;
+}
+
+/* Navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    padding: 0 1rem;
+}
+
+.nav {
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    margin: 0;
+}
+
+.logo {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.icons {
+    gap: 0.8rem;
+}
+
+.icons img {
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+/* Hero */
+.hero {
+    background: url("../images/rezepte-hero.jpg") no-repeat;
+    background-size: 100% auto;
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cta {
+    background: var(--base);
+    width: 640px;
+    height: auto;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-left: 10vw;
+}
+
+.cta-text {
+    gap: 0.8rem;
+    flex-direction: column;
+}
+
+.buttons-container {
+    gap: 0.8rem;
+}
+
+/* Neue Rezepte */
+.card-container {
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.card {
+    border: 1px solid var(--light);
+    box-shadow: 8px 8px 24px #E0E0E080;
+    max-width: 272px;
+    padding: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+@media screen and (width>=768px) {
+    .neue-rezepte h1 {
+        text-align: center;
+    }
+
+    .card-container {
+        justify-content: center;
+    }
+}
+
+
+/* About Section */
+.about-section {
+    gap: 3.2rem;
+    flex-wrap: wrap;
+    background: var(--base);
+    align-items: center;
+}
+
+.about-section div {
+    flex: 1 1 574px;
+}
+
+.profile-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border: 12px solid var(--dark);
+}
+
+/* Newsletter */
+.newsletter {
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.newsletter-form {
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.checkboxes {
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+.anmelden {
+    gap: 0.8rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.anmelden input[type="text"] {
+    width: 24rem;
+    height: 2.4rem;
+}
+
+.anmelden input[type="submit"] {
+    font-family: var(--body-text);
+    font-size: 1rem;
+}
+
+::placeholder {
+    font-family: var(--functional-text);
+    font-size: 0.8rem;
+    padding: 0 0.8rem;
+}
+
+.checkbox-1 {
+    gap: 0.8rem;
+}
+
+.checkbox-2 {
+    gap: 0.8rem;
+}
+
+/* Footer */
+footer {
+    gap: 2rem;
+}

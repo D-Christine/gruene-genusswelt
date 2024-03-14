@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grüne Genußwelt</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="Christine Hogg">
+    <link rel="icon" type="image/x-icon" href="">
+    <meta name="robots" content="index, follow">
+    <link rel="preconnect" href="https://api.fonts.coollabs.io" crossorigin />
+
+    <link
+        href="https://api.fonts.coollabs.io/css2?family=Hind+Madurai:wght@300;400;500;600;700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lora:ital,wght@1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/sections.css">
+</head>
+
+<body>
+    <header>
+        <nav class="flex nav px-1">
+            <div class="logo"><img src="images/logo-brandname.png" alt=""></div>
+            <ul class="flex">
+                <li>Rezepte</li>
+                <li>Über Uns</li>
+                <li>Kontakt</li>
+            </ul>
+            <div class="icons flex"><img src="images/heart.svg" alt=""><img src="images/search.svg" alt=""></div>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero flex">
+            <div class="cta px-4 py-4 flex">
+                <div class="cta-text flex">
+                    <h2>Entdecke die Vielfalt der nachhaltigen Küche</h2>
+                    <p>Genieße köstliche pflanzliche Gerichte für eine gesunde Ernährung und einen
+                        nachhaltigen
+                        Lebensstil.
+                    </p>
+                </div>
+                <div class="buttons-container flex">
+                    <a class="btn-secondary buttons">Mehr Erfahren</a>
+                    <a class="btn-primary buttons">Rezepte Stöbern</a>
+                </div>
+            </div>
+        </section>
+        <!-- Neue Rezepte -->
+        <section class="py-4 flex justify-center">
+            <div class="neue-rezepte align-items-center">
+                <h1>Neue Rezepte</h1>
+                <div class="flex card-container">
+                    <div class="card">
+                        <div>
+                            <img src="images/rezept-1.png" alt="">
+                            <h4>Quinoa-Power-Bowl mit geröstetem Gemüse</h4>
+                        </div>
+                        <a href="" class="btn-primary buttons">Zum Rezept <i class="bi bi-arrow-right"></i></a>
+
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="images/rezept-2.png" alt="">
+                            <h4>Bunte Gemüsepfanne mit aromatischem Knoblauch-Dressing</h4>
+                        </div>
+                        <a href="" class="btn-primary buttons">Zum Rezept <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="images/rezept-3.png" alt="">
+                            <h4>Vegane Lasagne mit cremiger Cashew-Bechamel</h4>
+                        </div>
+                        <a href="" class="btn-primary buttons">Zum Rezept <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                    <div class="card">
+                        <div>
+                            <img src="images/rezept-4.png" alt="">
+                            <h4>Asiatische Bowl mit Teriyaki-Tofu und knackigem Gemüse</h4>
+                        </div>
+                        <a href="" class="btn-primary buttons">Zum Rezept <i class="bi bi-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about-section -->
+        <section class="flex py-4 px-4 about-section">
+            <div>
+                <img src="images/profile.png" alt="" class="profile-image">
+            </div>
+            <div class="about-text">
+                <h1>Grüne Genußwelt</h1>
+                <h3 class="h3-margin-top">Leidenschaftliche Verfechter einer gesunden und nachhaltigen Ernährung
+                </h3>
+                <p class="parag-margin-top">Wir glauben fest daran, dass veganes Essen nicht nur gut für unseren
+                    Körper, sondern auch für
+                    unseren
+                    Planeten ist. Unsere Mission ist es, Menschen zu inspirieren und zu unterstützen, köstliche
+                    vegane
+                    Gerichte zu entdecken und in ihren Alltag zu integrieren.</p><br>
+                <p>
+                    Bei Grüne Genußwelt findest du eine vielfältige Auswahl an einfachen und kreativen veganen
+                    Rezepten,
+                    die sowohl erfahrene Köche als auch Anfänger ansprechen. Von herzhaften Hauptgerichten über
+                    erfrischende Salate bis hin zu verlockenden Desserts - unsere Rezepte sind voller Geschmack und
+                    Gesundheit.
+                </p><br>
+                <p>
+                    Wir glauben, dass eine pflanzliche Ernährung nicht nur den Tieren, sondern auch der Umwelt
+                    zugutekommt. Indem wir tierische Produkte durch köstliche pflanzliche Alternativen ersetzen,
+                    tragen
+                    wir dazu bei, den ökologischen Fußabdruck zu verringern und eine nachhaltigere Zukunft für alle
+                    zu
+                    schaffen.
+                </p><br>
+            </div>
+        </section>
+        <!-- Newsletter -->
+        <section class="flex justify-center text-align-centre py-4 newsletter">
+            <div>
+                <h1>Abonniere unseren Newsletter</h1>
+                <h3 class="h3-margin-top">Jeden Tag ein neues Rezept in deiner Inbox. Lecker, nachhaltig und vielfältig.
+                </h3>
+            </div>
+            <form id="myForm" method="post" class="flex newsletter-form text-align-centre">
+                <div class="flex checkboxes">
+                    <div class="flex checkbox-1">
+                        <label for="weekly">Wöchentliche News</label>
+                        <input type="checkbox" name="weekly" id="weekly">
+                    </div>
+                    <div class="flex checkbox-2">
+                        <label for="daily">Tägliche Rezepte</label>
+                        <input type="checkbox" name="daily" id="daily">
+                    </div>
+                </div>
+                <div class="flex anmelden">
+                    <input type="text" placeholder="E-Mail Addresse">
+                    <input class="btn-primary buttons" type="submit" value="Anmelden">
+                </div>
+            </form>
+
+        </section>
+    </main>
+    <footer class="bg-dark flex py-4 px-4">
+        <div>
+            <h4>Kontakt</h4>
+            <p>Frankfurter Tor 93<br>
+                10243 Berlin</p>
+        </div>
+        <div>
+            <h4>Rechtliches</h4>
+            <p>Impressum</p>
+            <p>Datenschutz</p>
+        </div>
+        <div class="icons flex">
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-pinterest"></i>
+        </div>
+    </footer>
+</body>
+
+</html>
